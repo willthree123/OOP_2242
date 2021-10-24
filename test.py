@@ -1,6 +1,4 @@
-aVar = 4
-
-bVar = 22
-
-
-print(bVar % aVar)
+a=40
+b=20
+c=True
+print(a>=b+b)
