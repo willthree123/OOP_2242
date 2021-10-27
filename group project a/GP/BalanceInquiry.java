@@ -32,6 +32,9 @@ public class BalanceInquiry extends Transaction
       screen.displayMessage( "\n - Total balance:     " );
       screen.displayDollarAmount( totalBalance );
       screen.displayMessageLine( "" );
+      screen.displayMessageLine( "" );
+      screen.displayMessage("Type Enter to exit to the main menu.");
+      double Empty = keypad.getDoubleInput();
    } // end method execute
 } // end class BalanceInquiry
 

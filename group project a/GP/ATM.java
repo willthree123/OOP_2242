@@ -36,6 +36,7 @@ public class ATM
          // loop while user is not yet authenticated
          while ( !userAuthenticated ) 
          {
+            screen.displayClear();
             screen.displayMessageLine( "\nWelcome!" );       
             authenticateUser(); // authenticate user
          } // end while
@@ -113,6 +114,7 @@ public class ATM
    // display the main menu and return an input selection
    private int displayMainMenu()
    {
+      screen.displayClear();
       screen.displayMessageLine( "\nMain menu:" );
       screen.displayMessageLine( "1 - View my balance" );
       screen.displayMessageLine( "2 - Withdraw cash" );
