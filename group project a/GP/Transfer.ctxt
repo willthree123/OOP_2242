@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Transfer
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Transfer\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=userAccountNumber\ atmScreen\ atmBankDatabase\ atmKeypad
+comment1.target=Transfer(int,\ Screen,\ BankDatabase,\ Keypad)
+comment2.params=
+comment2.target=void\ execute()
+comment3.params=transferAccount\ amountAuthenticated
+comment3.target=boolean\ transferMoney(int,\ boolean)
+numComments=4
